@@ -1,10 +1,22 @@
-<header>
-    <div class="header-content">
-        <div class="header-content-inner">
-            <h1>Your Favorite Source of Free Bootstrap Themes</h1>
-            <hr>
-            <p>Start Bootstrap can help you build better websites using the Bootstrap CSS framework! Just download your template and start going, no strings attached!</p>
-            <a href="#about" class="btn btn-primary btn-xl page-scroll">Find Out More</a>
+
+<!-- Intro Start -->
+
+<header class="intro">
+  <div class="intro-body">
+    <div class="container">
+      <div class="row">
+          <div class="col-md-10 col-md-offset-1">
+            <h1 class="brand-heading">&nbsp;</h1>
+            <h1 class="brand-heading">&nbsp;</h1>
+            <span class="intro-text">{{ content }}</span>
+            <h5>&nbsp;</h5>
+            <a href="#{{ site.pages_list['About'] }}" class="page-scroll">
+              <img class="img-me" src="{{site.baseurl}}{{ site.me-img }}" alt="">
+            </a>
+          </div>
         </div>
     </div>
+  </div>
 </header>
+
+<!-- Intro End -->
