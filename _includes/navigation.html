@@ -1,56 +1,40 @@
-
-<!-- Navigation Start -->
-
-<nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+<div class="navbar navbar-default" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
-        <i class="fa fa-bars"></i>
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
       </button>
-      {% if page.section-type == "index" %}
-        <a class="navbar-brand page-scroll" href="#page-top">
-      {% else %}
-        <a class="navbar-brand" href="{{site.baseurl}}/">
-      {% endif %}
-          <div>
-            {% if site.black-favicon %}
-              <img src="{{site.baseurl}}{{ site.black-favicon }}" alt="">
-            {% endif %}
-            {{ site.title }}
-          </div>
-        </a>
+      <p class="navbar-brand">{{ site.name }}</p>
     </div>
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+    <div class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
-        {% if page.section-type == "index" %}
-
-          <!-- Scroll to section for each page in index -->
-          {% for p in site.pages_list %}
-            <li>
-              <a class="page-scroll" href="#{{ p[1] }}"> {{p[0]}} </a>
-            </li>
-          {% endfor %}
-
-        {% else %}
-          <!-- Blog, Post, Tag and Error pages -->
-          {% for p in site.pages_list %}
-            <li>
-            {% if p[1] == "latest-post" %}
-              {% if page.url == "/blog/index.html" | prepend: {{site.baseurl}} %}
-                <a class="page-scroll" href="#page"> {{p[0]}} </a>
-              {% else %}
-                <a href="{{site.baseurl}}/blog/"> {{p[0]}} </a>
-              {% endif %}
-            {% else %}
-                <a href="{{site.baseurl}}/#{{ p[1] }}"> {{p[0]}} </a>
-            {% endif %}
-            </li>
-          {% endfor %}
-        {% endif %}
+      <li><a href="{{ site.baseurl }}/list.html">List</a></li>
+      <li><a href="{{ site.baseurl }}/links.html">Links</a></li>
+      <li><a href="{{ site.baseurl }}/projects.html">Projects</a></li>
+      <li><a href="{{ site.baseurl }}/about.html">About</a></li>
       </ul>
-    </div>
+    </div><!--/.nav-collapse -->
   </div>
-</nav>
+</div>
 
-<!-- Navigation End -->
+<!-- Sidebar -->
+<div id="sidebar-wrapper">
+  <ul class="sidebar-nav">
+    <li class="sidebar-brand"><a href="{{ site.baseurl }}/"><h1 class="brand">{{ site.name }}</h1></a><h3>{{ site.description }}</h3></li>
+    <hr />
+    <li><a href="{{ site.baseurl }}/list.html">List</a></li>
+    <li><a href="{{ site.baseurl }}/links.html">Links</a></li>
+    <li><a href="{{ site.baseurl }}/projects.html">Projects</a></li>
+    <li><a href="{{ site.baseurl }}/about.html">About</a></li>
+    <hr />
+    <div id="social-wrapper">
+      <li> <a href="{{ site.twitter }}"><i class="fa fa-twitter-square"></i> @twitter</a></li>
+      <li> <a href="{{ site.linkedin }}"><i class="fa fa-linkedin-square"></i> linkedin</a> </li>
+      <li> <a href="{{ site.facebook }}"><i class="fa fa-facebook-square"></i> facebook</a></li>
+      <li> <a href="{{ site.github }}"><i class="fa fa-github-square"></i> github</a> </li>
+    </div>
+  </ul>
+</div>
