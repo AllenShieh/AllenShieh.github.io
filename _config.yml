@@ -1,5 +1,5 @@
-title:            Site Title
-description:      Describe your website here.
+title:            NoWhere
+description:      You have reached nowhere.
 disqus_shortname: 
 reading_time:     true
 words_per_minute: 200
@@ -9,14 +9,14 @@ url:
 
 # Owner/author information
 owner:
-  name:           Your Name
+  name:           Allen Shieh
   avatar:         avatar.jpg
-  bio:            "Your bio goes here. It shouldn't be super long but a good sentence or two should suffice."
-  email:          you@email.com
+  bio:            "I guess you do not know me."
+  email:          allen_shieh@outlook.com
   # Social networking links used in footer. Update and remove as you like.
   twitter:        
   facebook:       
-  github:         
+  github:         AllenShieh
   stackexchange:  
   linkedin:       
   instagram:      
