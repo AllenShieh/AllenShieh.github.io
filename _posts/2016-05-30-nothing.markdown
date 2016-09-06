@@ -1,6 +1,0 @@
----
-layout: post
-title: Nothing
----
-There is nothing here.
-You've reached nowhere.
