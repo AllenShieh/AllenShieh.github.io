@@ -1,9 +1,11 @@
-<div class="container">
-  <footer>
-    <p class="text-muted credit">
-      &copy; {{ site.time | date: '%Y' }} {{ site.name }} &middot;
-      <a href="https://github.com/arnp/herring-cove"> Herring Cove for Jekyll </a>
-      {{ site.time }}
-    </p>
-  </footer>
-</div>
+<!-- footer start -->
+
+<footer class="site-footer">
+  <a class="subscribe" href="{{ "/feed.xml" | prepend: site.baseurl }}"> <span class="tooltip"> <i class="fa fa-rss"></i> Subscribe!</span></a>
+    <div class="inner">
+         <section class="copyright">All content copyright <a href="mailto:{{ site.email}}">{{ site.name }}</a> &copy; {{ site.time | date: '%Y' }} &bull; All rights reserved.</section>
+         <section class="poweredby">Made with <a href="http://jekyllrb.com"> Jekyll</a></section>
+    </div>
+</footer>
+
+<!-- footer end -->
