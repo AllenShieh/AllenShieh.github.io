@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Resume
-description: "This is my personal resume. Check it out!"
-modified: 2016-09-19
+title: The Beginning
+description: "This is the beginning."
+modified: 2016-09-06
 tags:
 image:
   feature: abstract-3.jpg
