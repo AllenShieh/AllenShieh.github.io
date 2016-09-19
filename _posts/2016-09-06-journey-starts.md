@@ -3,7 +3,7 @@ layout: post
 title: The Beginning
 description: "This is the beginning."
 modified: 2016-09-06
-tags:
+tags: [diary]
 image:
   feature: abstract-3.jpg
   credit: dargadgetz
