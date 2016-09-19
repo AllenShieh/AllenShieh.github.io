@@ -1,5 +1,5 @@
-title:            NoWhere
-description:      You have reached nowhere.
+title:            I am Allen Shieh and this is my story.
+description:      Cheers!
 disqus_shortname:
 reading_time:     true
 words_per_minute: 200
@@ -11,7 +11,7 @@ url:
 owner:
   name:           Allen Shieh
   avatar:         myself.jpg
-  bio:            "SJTUCS2013"
+  bio:            "SJTU/CS/2013"
   email:          allen_shieh@outlook.com
   # Social networking links used in footer. Update and remove as you like.
   twitter:        Allen_Xie8
