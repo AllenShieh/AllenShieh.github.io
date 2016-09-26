@@ -24,6 +24,7 @@ image:
       <span class="entry-reading-time">
         <i class="fa fa-clock-o"></i>
         {% include read-time-index.html %}
+        {% include hit-counter.html %}
       </span><!-- /.entry-reading-time -->
       {% endif %}
     </div><!-- /.entry-meta -->
@@ -36,9 +37,6 @@ image:
   <div class="entry-content">
     {{ post.content }}
   </div><!-- /.entry-content -->
-  <span class="hit-counter">
-    {% include hit-counter.html %}
-  </span>
 </article><!-- /.hentry -->
 {% endfor %}
 
