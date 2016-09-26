@@ -26,7 +26,6 @@ image:
         {% include read-time-index.html %}
       </span><!-- /.entry-reading-time -->
       {% endif %}
-      {% include hit-counter.html %}
     </div><!-- /.entry-meta -->
     {% if post.link %}
       <h1 class="entry-title"><a href="{{ site.url }}{{ post.url }}" class="permalink" rel="bookmark" title="{{ post.title }}"><i class="fa fa-bookmark"></i></a> <a href="{{ post.link }}">{{ post.title }}</a></h1>
@@ -37,6 +36,7 @@ image:
   <div class="entry-content">
     {{ post.content }}
   </div><!-- /.entry-content -->
+  {% include hit-counter.html %}
 </article><!-- /.hentry -->
 {% endfor %}
 
