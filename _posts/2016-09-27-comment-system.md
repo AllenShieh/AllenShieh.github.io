@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Guidance
+title: Guidance: Add A Comment System to Your Blog
 description: "Picture test."
 modified: 2016-09-27
 tags: [jekyll, blog, comment system]
@@ -8,14 +8,14 @@ tags: [jekyll, blog, comment system]
 
 What a day!
 
-I planned to read several papers this afternoon, but once heard from [Patrick](http://patrick-peng.me/) that the github student pack can provide a free domain name for one year, I could wait to try it. However, as soon as I set up my redirection, the comment system I previously build was down. I tried another one, but with the same failure. What is really interesting was that using Safiri, everything was fine, but testing on my own computer, the comment system was reluctant to come out. Well, in the end, I switch back to the previous system and give up the free domain name.
+I planned to read several papers this afternoon, but once heard from [Patrick](http://patrick-peng.me/) that the [github student pack](https://education.github.com/pack) can provide a free domain name for one year, I could wait to try it. However, as soon as I set up my redirection, the comment system I previously built was down. I tried another one, but with the same failure. What was really interesting was that using Safiri, everything was fine, but testing on my own computer, the comment system was reluctant to come out. Well, in the end, I switched back to the previous system and gave up the free domain name.
 
 Recently, I have been working on my blog for its improvements. Here, I would introduce two comment systems that can be added into your blog, if you are interested in having one. A blog would not be a real blog if it has no comment system, right?
 
 OK, here we go！
 
 ## Facebook Comment Plugin
-I personally would not recommend this comment system due to that it can only use facebook account to comment. However, having a facebook comment system in your blog is much more awesome, maybe, at least to some of us. Seriously, through my own experience, this comment system is not as good as the second one.
+I personally would not recommend this comment system due to that it can only use Facebook account to comment. However, having a Facebook comment system in your blog is much more awesome, maybe, at least to some of us. Seriously, through my own experience, this comment system is not as good as the second one.
 
 Fine, cut the useless talk. Let us begin.
 
@@ -80,7 +80,7 @@ And copy the second segment to the place you want the system to show. Now you ca
 <center><div class="fb-comments"></div></center>
 ```
 
-And you are done! I have given you all the facts that you need to know about how to insert facebook comment system into your blog. Push and try it!
+And you are done! I have given you all the facts that you need to know about how to insert Facebook comment system into your blog. Push and try it!
 
 ## Disqus
 This one will be easier than the previous one and it has more ways for the commentor to log in and comment on your blog, through Facebook, Twitter, and Google. The appearance will be more satisfying, to be honest.
@@ -127,6 +127,8 @@ It will be like this:
 	<img src="/images/comment system/disqus.png" alt="">
 </figure>
 </center>
+
+You can futher configure relative settings and use other functions provided by Disqus.
 
 Well, the second part is a little short, mainly because Disqus is much more easier compared to Facebook Comment Plugin. Pfff. I spent the whole afternoon fighting against why the change of the domain name would cause the comment system to fail and I had not found the answer. I guess the problem result from the redirection. When setting the url in the comment system, it is a little bit tricky between the real url and the redirected url.
 
