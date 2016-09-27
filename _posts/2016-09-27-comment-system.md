@@ -3,7 +3,7 @@ layout: post
 title: Guidance
 description: "Picture test."
 modified: 2016-09-27
-tags: [jekyll] [blog] [comment system]
+tags: [jekyll, blog, comment system]
 ---
 
 What a day!
