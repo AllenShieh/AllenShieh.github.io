@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Guidance: Add A Comment System in Your Blog
-description: "Introdution to Two Comment Systems."
+title: Guidance
+description: "Picture test."
 modified: 2016-09-27
 tags: [jekyll] [blog] [comment system]
 ---
