@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Guidance: Add A Comment System to Your Blog
+title: How to Add A Comment System to Your Blog
 description: "Picture test."
 modified: 2016-09-27
 tags: [jekyll, blog, comment system]
