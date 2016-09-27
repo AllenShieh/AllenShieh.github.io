@@ -61,7 +61,7 @@
     </div><!-- /.entry-content -->
     {% if page.comments != false and site.disqus_shortname %}<section id="disqus_thread"></section><!-- /#disqus_thread -->{% endif %}
 
-    <div class="fb-comments" data-href="<?php the_permalink() ?>" data-numposts="5" data-width="550"></div>
+    <div class="fb-comments" data-href="{{ site.url }}{{ page.url }}" data-numposts="5" data-width="550"></div>
 
     {% if site.related_posts.size > 0 %}{% include read-more.html %}{% endif %}
   </article>
