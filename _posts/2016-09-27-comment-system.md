@@ -1,12 +1,12 @@
 ---
 layout: post
 title: Add A Comment System in Your Blog
-description: "introdution to Two Comment Systems."
+description: "Introdution to Two Comment Systems."
 modified: 2016-09-27
 tags: [jekyll] [blog] [comment system]
 ---
 
-What a day! 
+What a day!
 
 I planned to read several papers this afternoon, but once heard from [Patrick](http://patrick-peng.me/) that the github student pack can provide a free domain name for one year, I could wait to try it. However, as soon as I set up my redirection, the comment system I previously build was down. I tried another one, but with the same failure. What is really interesting was that using Safiri, everything was fine, but testing on my own computer, the comment system was reluctant to come out. Well, in the end, I switch back to the previous system and give up the free domain name.
 
@@ -19,11 +19,13 @@ I personally would not recommend this comment system due to that it can only use
 
 Fine, cut the useless talk. Let us begin.
 
-First, visit the [Facebook developer website](https://developers.facebook.com/) and log in. Look to your top right and find the button shown in the figure below. 
+First, visit the [Facebook developer website](https://developers.facebook.com/) and log in. Look to your top right and find the button shown in the figure below.
 
+<center>
 <figure>
-	<img src="/images/comment system/my app.png" alt="">
+	<img src="/images/comment system/my apps.png" alt="">
 </figure>
+</center>
 
 Click it and click 'Add a New App'. Then choose 'Website' and name your app. You will find you have already got a segment of codes. Put them in the file which will be included in any page file that you want to show the system, traditionally in the <body> tag, or in the 'head.html' as I do. What you get is something like this:
 
@@ -49,9 +51,11 @@ Click it and click 'Add a New App'. Then choose 'Website' and name your app. You
 
 Then type in your website link and click 'next'. Scroll down to 'Next Steps' and click 'Social Plugins' which opens a new page. Scroll down a little to find this:
 
+<center>
 <figure>
 	<img src="/images/comment system/comments.png" alt="">
 </figure>
+</center>
 
 Click 'Read the Docs' and you should see the Comments Plugin's document. You do not have to configure any of the blanks shown, just click 'Get Code' and two segments of codes will appear. Copy the first segment in your <body> tag like this:
 
@@ -83,9 +87,11 @@ This one will be easier than the previous one and it has more ways for the comme
 
 Visit the [official website of Disqus](https://disqus.com/) and get an account. Click 'GET STARTED':
 
+<center>
 <figure>
 	<img src="/images/comment system/get started.png" alt="">
 </figure>
+</center>
 
 Choose 'I want to install Disqus on my site'. Then type in the information and click 'Create Site'. Afterwards, you should get something like this:
 
@@ -114,3 +120,14 @@ Choose 'I want to install Disqus on my site'. Then type in the information and c
 
 Copy them to where the comment system would show and, you are done here! Push and drink a cup of coffee.
 
+It will be like this:
+
+<center>
+<figure>
+	<img src="/images/comment system/disqus.png" alt="">
+</figure>
+</center>
+
+Well, the second part is a little short, mainly because Disqus is much more easier compared to Facebook Comment Plugin. Pfff. I spent the whole afternoon fighting against why the change of the domain name would cause the comment system to fail and I had not found the answer. I guess the problem result from the redirection. When setting the url in the comment system, it is a little bit tricky between the real url and the redirected url.
+
+At least, the comment system works. Cheers.
