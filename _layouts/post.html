@@ -60,10 +60,12 @@
         {% if page.share != false %}{% include social-share.html %}{% endif %}
       </footer>
 
+      <div class="fb-comments" data-numposts="5"></div>
+
     </div><!-- /.entry-content -->
     {% if page.comments != false and site.disqus_shortname %}<section id="disqus_thread"></section><!-- /#disqus_thread -->{% endif %}
 
-    <div class="fb-comments" data-numposts="5"></div>
+
 
     {% if site.related_posts.size > 0 %}{% include read-more.html %}{% endif %}
   </article>
