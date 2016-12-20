@@ -10,16 +10,31 @@ image:
   creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
 ---
 
+<article>
+  <h1 align="center">Welcome to my website!</h1>
+  This website may have bugs, so be sure to inform me ASAP! I will try my best to fix it.</br>
+  Please use 'http' in your url while visiting. I have not found why 'http' would lead to chaos. :(</br>
+  The menu is on the top left corner of the website, you can access everything from there.</br>
+  But anyway, I will provide a direct link to several main pages as follows.</br>
+  <a href="/posts">All posts</a></br>
+  <a href="/publications">All publications</a></br>
+  <a href="/projects">Interesting projects</a></br>
+  <a href="/resume">My resume</a></br>
+  I am thinking of add more elements into my website, so come and visit more!
+</article>
+
+<!--
+
 {% for post in paginator.posts %}
 <article class="hentry">
   <header>
-    <!-- entry image
+
     {% if post.image.feature %}
       <div class="entry-image-index">
         <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}"><img src="{{ site.url }}/images/{{ post.image.feature }}" alt="{{ post.title }}"></a>
       </div>
     {% endif %}
-    -->
+
 
     <div class="entry-meta">
       <span class="entry-date date published updated"><time datetime="{{ post.date | date_to_xmlschema }}"><a href="{{ site.url }}{{ post.url }}">{{ post.date | date: "%B %d, %Y" }}</a></time></span><span class="author vcard"><span class="fn"><a href="{{ site.url }}/resume/">{{ site.owner.name }}</a></span></span>
@@ -27,10 +42,10 @@ image:
       <span class="entry-reading-time">
         <i class="fa fa-clock-o"></i>
         {% include read-time-index.html %}
-        <!-- | HITS: <span data-hk-page="{{ post.url | prepend: site.url }}"> - </span> -->
-      </span><!-- /.entry-reading-time -->
+        | HITS: <span data-hk-page="{{ post.url | prepend: site.url }}"> - </span>
+      </span>
       {% endif %}
-    </div><!-- /.entry-meta -->
+    </div>
     {% if post.link %}
       <h1 class="entry-title"><a href="{{ site.url }}{{ post.url }}" class="permalink" rel="bookmark" title="{{ post.title }}"><i class="fa fa-bookmark"></i></a> <a href="{{ post.link }}">{{ post.title }}</a></h1>
     {% else %}
@@ -38,13 +53,13 @@ image:
     {% endif %}
   </header>
 
-  <!-- entry content
   <div class="entry-content">
     {{ post.content }}
   </div>
-  -->
 
-</article><!-- /.hentry -->
+</article>
 {% endfor %}
+
+-->
 
 {% include pagination.html %}
