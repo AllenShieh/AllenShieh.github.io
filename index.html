@@ -1,7 +1,7 @@
 ---
 layout: post-index
 title: Allen Shieh
-description: "See the latest update."
+description: "Main page."
 tags:
 comments: false
 image:
@@ -13,11 +13,14 @@ image:
 {% for post in paginator.posts %}
 <article class="hentry">
   <header>
+    <!-- entry image
     {% if post.image.feature %}
       <div class="entry-image-index">
         <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}"><img src="{{ site.url }}/images/{{ post.image.feature }}" alt="{{ post.title }}"></a>
-      </div><!-- /.entry-image -->
+      </div>
     {% endif %}
+    -->
+
     <div class="entry-meta">
       <span class="entry-date date published updated"><time datetime="{{ post.date | date_to_xmlschema }}"><a href="{{ site.url }}{{ post.url }}">{{ post.date | date: "%B %d, %Y" }}</a></time></span><span class="author vcard"><span class="fn"><a href="{{ site.url }}/resume/">{{ site.owner.name }}</a></span></span>
       {% if site.reading_time %}
@@ -34,9 +37,13 @@ image:
       <h1 class="entry-title"><a href="{{ site.url }}{{ post.url }}" rel="bookmark" title="{{ post.title }}" itemprop="url">{{ post.title }}</a></h1>
     {% endif %}
   </header>
+
+  <!-- entry content
   <div class="entry-content">
     {{ post.content }}
-  </div><!-- /.entry-content -->
+  </div>
+  -->
+
 </article><!-- /.hentry -->
 {% endfor %}
 

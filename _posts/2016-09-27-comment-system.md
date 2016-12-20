@@ -4,6 +4,10 @@ title: How to Add A Comment System to Your Blog
 description: "The comment system is easy."
 modified: 2016-09-28
 tags: [jekyll, blog, comment system]
+image:
+  feature: abstract-10.jpg
+  credit: dargadgetz
+  creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
 ---
 
 What a day!
