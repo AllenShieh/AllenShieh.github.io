@@ -474,18 +474,18 @@ header .entry-meta {
 		box-shadow: 0 0 0 0, 0 6px 12px rgba($base-color,0.1);
 		border-radius: 3px;
 		margin-bottom: 20px;
-		//padding: 25px 15px;
-		padding: 10px 10px;
+		padding: 25px 15px;
+		//padding: 10px 10px;
 
 		@media #{$medium} {
-			//padding: 30px;
-			padding: 20px;
+			padding: 30px;
+			//padding: 20px;
 		}
 
 		@media #{$large} {
 			margin-bottom: 30px;
-			//padding: 50px 80px;
-			padding: 30px 30px;
+			padding: 50px 80px;
+			//padding: 30px 30px;
 		}
 	}
 }
