@@ -20,7 +20,7 @@ By Jan., 13th, I have finished up the problems left in the past, and the problem
 ## Driving
 Another goal in this winter vacation is to achieve my driving license, which has been delayed for more than one year due to the internship in Microsoft. Today is the second day I learnt to drive and also my second day to drive on road. Yes, on the first day, the coach put me in the driving seat and asked to drive on the real road. It was EXCITING, but, frankly, not-so-ready. It is, though, the quickest way to get you familiar with the vehicle.
 
-Honestly, I think I am stuck in how to properly making a turn. One have to do so many things when turning and I know, it is just a matter of familarity. Wish I could do better afterwards. :)
+Honestly, I think I am stuck in how to properly making a turn. One have to do so many things when turning and I know, it is just a matter of familiarity. Wish I could do better afterwards. :)
 
 ## Other Stuff
 Writing this first diary is just a beginning and I wish I have time to write more stuff here. My former blogs are [here](http://user.qzone.qq.com/545133847/main) (in Chinese) and maybe I could translate some here. LOL
