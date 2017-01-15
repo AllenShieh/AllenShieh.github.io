@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Jan., 15th: Coding & Driving
-description: "My first weekly diary."
+description: "First diary."
 modified: 2017-01-15
 tags: [diary]
 image:
