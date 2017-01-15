@@ -2,7 +2,6 @@
 layout: post
 title: Jan. 15th, Coding & Driving
 tags: [diary]
-comments: true
 image:
   feature: abstract-8.jpg
 ---
