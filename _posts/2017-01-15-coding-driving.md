@@ -1,13 +1,9 @@
 ---
 layout: post
 title: Jan., 15th: Coding & Driving
-description: "First diary."
-modified: 2017-01-15
 tags: [diary]
 image:
   feature: abstract-8.jpg
-  credit: dargadgetz
-  creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
 ---
 
 Since I built up this blog, I never have the chance to add real stuff to it. Well now, I decide to keep a weekly diary in 2017, if I can. Things in these diaries would be casual, recording things worthy of mention during the week.
