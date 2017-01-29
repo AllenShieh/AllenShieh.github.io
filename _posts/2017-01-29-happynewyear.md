@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Happy Chinese New Year
+title: Jan. 29th, Happy Chinese New Year
 tags: [diary]
 image:
   feature: happynewyear.jpg
@@ -14,4 +14,4 @@ I would probably taking the driving examinations next week. In the last lesson, 
 
 I also saw a movie today, *Billy Lynn's Long Halftime Walk*. I say, it is a good movie, however, not as good as I expected. Shots were comforting, but the narrative way does not really fit into the plots. I know that Ang Lee was trying to "recall the memory from the similar scene now and before", but I got embarrassed some time. Well I am no professional reviewers, so just a feeling to share. The theme, undoubtedly, was profound. "Let's go back to war. Let's go back to home." To soldiers, the war is their home, and our home is safe only thanks to them.
 
-Oh BTW, I am restarting my running plan. My legs have almost recovered from the surgery.
+BTW, I am restarting my running plan. My legs have almost recovered from the surgery. Also, the comment system is available abroad.
