@@ -2,8 +2,8 @@
 layout: post
 title: Feb. 9th, An Interesting Problem
 tags: [diary]
-feature:
-  background-image: ac.jpg
+image:
+  feature: ac.jpg
 ---
 
 I came across a very interesting, or at least worthy of being dug into, problem on Leetcode, [Problem 32. Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/). Cannot wait to share it.
