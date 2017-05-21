@@ -1,6 +1,6 @@
 ---
 layout: post
-title: March 23rd, Library and Go to the Gym
+title: Library and Go to the Gym
 tags: [diary]
 image:
   feature: yourname.png

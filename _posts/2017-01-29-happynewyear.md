@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Jan. 29th, Happy Chinese New Year
+title: Happy Chinese New Year
 tags: [diary]
 image:
   feature: happynewyear.jpg

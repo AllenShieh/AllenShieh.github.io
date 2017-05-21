@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Feb. 9th, An Interesting Problem
+title: An Interesting Problem
 tags: [diary]
 image:
   feature: ac.jpg
