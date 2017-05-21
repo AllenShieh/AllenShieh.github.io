@@ -33,7 +33,7 @@ Just pause here for the WCOA, and we are gonna first set up the server. Basicall
 </figure>
 </center>
 
-Click this.
+Click this to create your own app.
 <center>
 <figure>
 	<img src="/images/chat robot/create.png" alt="">
