@@ -20,6 +20,13 @@ Generally, the chatting robot I put into the WeChat Official Account works fine.
 </figure>
 </center>
 
+Before we start, you can subscribe my WeChat Official Account through the QRCode below.
+<center>
+<figure>
+	<img src="/images/chat robot/qrcode.jpg" alt="">
+</figure>
+</center>
+
 Several weeks ago, I found an interesting chat robot while watching live streams of [a video blogger](http://live.bilibili.com/1011) on Bilibili and was wondering if I could use the robot to do something for me. I googled the robot and found its [offical website](https://www.cleverbot.com/). It is said to be the best chatting robot in the world right now, and through the tryouts, I found it very impressive. I would very much like to show the robot to everyone, but in a attractive way. As a result, I decided to try putting the robot into the WeChat Official Account, in short, WCOA afterwards.
 
 There are several parts to be completed in this task. First, and easy to be thought of, the automatic replies of WCOA should be replaced by the messages provided by the chatting robot, in which I should get the API of the robot and find where the replied messages are. Second, always-running service means that a server should be set up to process the messages received anytime. The last I am concerned of would be introduced afterwards.
