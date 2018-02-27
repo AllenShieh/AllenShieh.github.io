@@ -11,12 +11,12 @@ Do you want to let a chat robot automatically, and emotionally reply to the user
 Generally, the chatting robot I put into the WeChat Official Account works fine. But there are times that it would crash. But, hey, it is fun, right? Hearing from the friends' feedbacks, it could support most of the languages, and do not try to input codes to shut it down, it does not work that way!
 <center>
 <figure>
-	<img src="/images/chat robot/1.jpg" alt="">
+	<img src="/images/chat robot/1.jpg" width="60%" height="60%" alt="">
 </figure>
 </center>
 <center>
 <figure>
-	<img src="/images/chat robot/2.jpg" alt="">
+	<img src="/images/chat robot/2.jpg" width="60%" height="60%" alt="">
 </figure>
 </center>
 
