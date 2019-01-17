@@ -10,7 +10,7 @@ image:
   creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
 ---
 
-This is where everything originates.
+This is where everything started.
 
 # Thank you for visiting!
 This site is under construction. If you see this post, you can accompany me and view the whole construction process. Cheers!
