@@ -3,7 +3,7 @@ layout: post
 title: How to Add A Comment System to Your Blog
 description: "The comment system is easy."
 modified: 2016-09-28
-tags: [jekyll, blog, disqus, api]
+tags: [api]
 image:
   feature: abstract-2.jpg
   credit: dargadgetz

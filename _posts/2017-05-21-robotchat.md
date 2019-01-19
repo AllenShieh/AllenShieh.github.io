@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Use A Robot to Reply in Your WeChat Official Account
-tags: [wechat, bot, api]
+tags: [api]
 image:
   feature: 20170521.jpg
 ---

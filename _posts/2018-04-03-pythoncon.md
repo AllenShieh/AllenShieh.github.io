@@ -1,7 +1,7 @@
 ---
 layout: post
 title: A Noteworthy Fact in Python
-tags: [python, numpy]
+tags: [python]
 image:
   feature: 20180403.jpg
 ---

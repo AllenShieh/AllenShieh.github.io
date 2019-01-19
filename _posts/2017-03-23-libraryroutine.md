@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Library and Go to the Gym
+title: Library and Gym
 tags: [diary]
 image:
   feature: 20170323.png
