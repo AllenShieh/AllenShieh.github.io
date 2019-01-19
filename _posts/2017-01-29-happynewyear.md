@@ -3,7 +3,7 @@ layout: post
 title: Happy Chinese New Year
 tags: [diary]
 image:
-  feature: happynewyear.jpg
+  feature: 20170129.jpg
 ---
 
 Happy new year! This is the second day of Chinese new year, and clearly, you all were not taken by the monster YEAR from the Chinese traditional myth. LOL

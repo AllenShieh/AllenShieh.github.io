@@ -1,9 +1,9 @@
 ---
 layout: post
 title: An Interesting Problem
-tags: [diary]
+tags: [cpp, leetcode]
 image:
-  feature: ac.jpg
+  feature: 20170209.jpg
 ---
 
 I came across a very interesting, or at least worthy of being dug into, problem on Leetcode, [Problem 32. Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/). Cannot wait to share it.

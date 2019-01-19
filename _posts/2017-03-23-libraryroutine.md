@@ -3,7 +3,7 @@ layout: post
 title: Library and Go to the Gym
 tags: [diary]
 image:
-  feature: yourname.png
+  feature: 20170323.png
 ---
 
 I think going to the gym has been a part of my life!

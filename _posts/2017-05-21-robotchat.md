@@ -1,9 +1,9 @@
 ---
 layout: post
 title: Use A Robot to Reply in Your WeChat Official Account
-tags: [wechat, robot chatter]
+tags: [wechat, bot, api]
 image:
-  feature: cleverbot.jpg
+  feature: 20170521.jpg
 ---
 
 Do you want to let a chat robot automatically, and emotionally reply to the users who send messages to your WeChat Official Account?

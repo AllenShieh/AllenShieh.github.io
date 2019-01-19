@@ -1,9 +1,9 @@
 ---
 layout: post
 title: A Noteworthy Fact in Python
-tags: [Python, numpy]
+tags: [python, numpy]
 image:
-  feature: ori.jpg
+  feature: 20180403.jpg
 ---
 
 This was found when working on the term project for CS269 last quarter.
