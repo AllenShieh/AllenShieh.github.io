@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Leetcode Problem 32: Longest Valid Parentheses
+title: Leetcode Problem 32. Longest Valid Parentheses
 tags: [cpp]
 image:
   feature: 20170209.jpg
